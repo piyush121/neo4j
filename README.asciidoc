@@ -50,6 +50,10 @@ OSX users need to have http://brew.sh/[Homebrew] installed.
 After running a `mvn clean install -DfullBuild` cd into `packaging/standalone/target` and extract the version you want, then
 
   bin/neo4j start
+  
+  OR
+  
+  service neo4j-service start
 
 in the extracted folder to start Neo4j on `localhost:7474`. On Windows you want to run
 
